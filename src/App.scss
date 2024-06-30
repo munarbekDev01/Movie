@@ -1,0 +1,27 @@
+@import '../src//assets/styles/Header.scss';
+@import '../src//assets/styles/Home.scss';
+@import '../src//assets/styles/Popular.scss';
+@import '../src//assets/styles/MovieDetails.scss';
+@import '../src//assets/styles/Actors.scss';
+@import '../src//assets/styles/ModalWindow.scss';
+@import '../src//assets/styles/Video.scss';
+@import '../src//assets/styles/ActorDetails.scss';
+
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}

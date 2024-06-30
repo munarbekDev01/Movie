@@ -1,0 +1,47 @@
+#home {
+  .home {
+    .bg-dark {
+      position: relative;
+      background: #0e165aa0;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 45px;
+      &--search {
+        position: absolute;
+        z-index: 2;
+        bottom: 60px;
+        right: 60px;
+        padding: 15px 30px;
+        border: none;
+        color: white;
+        font-size: 18px;
+        border-radius: 50px;
+        background: linear-gradient(to right, rgb(30 213 169) 0%, rgb(1 180 228) 100%)
+
+        
+      }
+      h1 {
+        color: white;
+        font-size: 43px;
+        span {
+          font-size: 30px;
+        }
+      }
+      input {
+        padding: 15px 0;
+        color: rgba(0, 0, 0, 0.32);
+        border-radius: 50px;
+        font-size: 18px;
+        padding-left: 15px;
+        border: none;
+        font-weight: 600;
+        outline: none;
+
+        &::placeholder {
+          color: rgba(0, 0, 0, 0.32);
+        }
+      }
+    }
+  }
+}

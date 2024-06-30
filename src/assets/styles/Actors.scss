@@ -1,0 +1,40 @@
+#actors {
+    padding: 30px 0;
+    .actors {
+        display: flex;
+        flex-direction: column;
+        .blocks {
+            margin-top: 30px;
+            // overflow: auto;
+            // width: 900px;
+            // height: 350px;
+            display: flex;
+            gap: 20px;
+            overflow-x: scroll;
+            &::-webkit-scrollbar {
+                visibility: hidden;
+                }
+            .block {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            border: 1px solid red;
+                border-radius: 10px;
+                h1, h3 {
+                    font-size: 20px;
+                    text-align: center;
+                }
+                Link{
+
+                    img {
+                        border-radius: 10px 10px 0 0;
+                        width: 200px;
+                        height: 70%;
+                    }
+                }
+
+            }
+        }
+            
+    }
+}

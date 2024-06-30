@@ -1,0 +1,58 @@
+#header {
+    padding: 30px 0;
+    background: #0e155a;
+    z-index: 99;
+     position: sticky;
+     top: 0;
+    .header {
+        img {
+            width: 10%;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &--nav {
+            a {
+                font-size: 20px;
+                color: white;
+                font-weight: 600;
+                margin: 0px 30px;
+            }
+        }
+        &--search {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            &__dark {
+                color: white;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            input {
+                font-size:25px ;
+                padding: 6px 30px;
+                background-color: transparent;
+                border: none;
+                color: white;
+                border-bottom: 2px solid white;
+            }
+            button {
+
+                font-size: 14px;
+                text-transform: uppercase;
+                background-color: white;
+                color: #0e155a;
+                padding:10px 30px ;
+                border-radius: 10px;
+                transition: .8s;
+                &:hover {
+                    transform: scale(1.1);
+                    background: transparent;
+                    color: white;
+                    border: 1px solid white;
+                }
+            }
+            
+        }
+    }
+}

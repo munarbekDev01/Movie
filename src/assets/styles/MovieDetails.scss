@@ -1,0 +1,113 @@
+#movieDetails {
+  color: white;
+  // background: rgb(138, 62, 138);
+  padding: 50px 0;
+  .movieDetails {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    background: rgba(0, 0, 0, 0.349);
+
+    img {
+      width: 350px;
+      border-radius: 10px;
+    }
+    .text {
+      width: 900px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      font-size: 10px;
+    }
+    .gl-text {
+      display: flex;
+      // align-items: center;
+      gap: 30px;
+
+      flex-direction: column;
+      justify-content: flex-start;
+      h2 {
+        color: rgba(189, 179, 179, 0.824);
+      }
+      .date {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        font-weight: 300;
+      }
+      .details-icons {
+         display: flex;
+         align-items: center;
+        .a-trailer {
+
+          border-radius: 0;
+          background: transparent;
+          display: flex;
+          align-items: center;
+         gap: 15px;
+          border: none;
+          &:hover {
+            color: rgba(255, 255, 255, 0.479);
+          }
+        }
+        a {
+         cursor: pointer;
+          padding: 15px;
+          background: rgb(27, 27, 67);
+          border-radius: 100%;
+          margin-right: 25px;
+          font-size: 25px;
+          color: white;
+        }
+      }
+      .rating {
+        display: flex;
+        align-items: center;
+        gap: 29px;
+
+        h1 {
+          width: 50px;
+          height: 50px;
+          font-size: large;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          border: 6px solid rgb(47, 255, 47);
+          color: white;
+          background: black;
+          transition: 0.8s;
+          &:hover {
+            scale: (1.1);
+          }
+        }
+        h3 {
+         display: flex;
+         align-items: center;
+         h2 {
+             transition: .5s;
+            font-size: large;
+            color: white;
+            margin-left: 20px;
+            padding: 7px;
+            background: rgb(27, 27, 67);
+            border-radius: 50px;
+            &:hover {
+               scale: (1.1);
+            }
+          }
+          
+        }
+      }
+    }
+  }
+}
+.x {
+  position: absolute;
+  top: 156px;
+  right: 389px;
+  z-index: 4;
+  color: red;
+  font-size: 48px;
+  cursor: pointer;
+}

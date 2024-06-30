@@ -1,0 +1,29 @@
+#modalWindow {
+    .modalWindow {
+        width: 868px;
+        height: 592px;
+        background: white;
+        position: absolute;
+        z-index: 3;
+        top: 135px;
+        right: 338px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    background: 100%;
+    border: 10px solid white;
+    img {
+        width: 70%;
+        height: 100%;
+    }
+    .win-text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        text-align:center;
+    }
+
+    }
+}
